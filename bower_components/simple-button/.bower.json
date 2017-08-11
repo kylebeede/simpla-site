@@ -1,0 +1,40 @@
+{
+  "name": "simple-button",
+  "version": "0.2.3",
+  "authors": [
+    "Simpla <friends@simpla.io>"
+  ],
+  "description": "Extends <button> with extra functionality and fewer styles",
+  "keywords": [
+    "web-component",
+    "web-components",
+    "polymer",
+    "simple-button"
+  ],
+  "main": "simple-button.html",
+  "license": "MIT",
+  "homepage": "https://github.com/SimpleElements/simple-button/",
+  "ignore": [
+    "*",
+    "!*.html",
+    "!LICENSE"
+  ],
+  "dependencies": {
+    "polymer": "^1.6.0",
+    "iron-icon": "^1.0.8"
+  },
+  "devDependencies": {
+    "webcomponentsjs": "^0.7.14",
+    "web-component-tester": "^4.0.0",
+    "iron-icons": "^1.1.3"
+  },
+  "_release": "0.2.3",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.2.3",
+    "commit": "e3850ac1e85d381aea5b98459f87f6a8dc8937bf"
+  },
+  "_source": "https://github.com/SimpleElements/simple-button.git",
+  "_target": "^0.2.3",
+  "_originalSource": "simple-button"
+}

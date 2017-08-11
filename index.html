@@ -1,0 +1,25 @@
+<html>
+	<head>
+	<!-- Include Simpla and cross-browser polyfill, then init project -->
+	<script src="https://unpkg.com/webcomponents.js@^0.7.24/webcomponents-lite.min.js" async></script>
+	<script src="https://unpkg.com/simpla@^2.0.0"></script>
+	<script>
+	  Simpla.init('rkTEJDowb');
+	</script>
+
+	<!-- Prefetch Polymer -->
+	<link rel="import" href="./bower_components/polymer/polymer.html" async>
+
+	<!-- Import Simpla elements -->
+	<link rel="import" href="./bower_components/simpla-text/simpla-text.html">
+	<link rel="import" href="./bower_components/simpla-img/simpla-img.html">
+	<link rel="import" href="./bower_components/simpla-admin/simpla-admin.html" async>
+	</head>
+	<body>
+		<!-- Editable text -->
+		<simpla-text path="/text" placeholder="Start typing..."></simpla-text>
+
+		<!-- An editable img -->
+		<img is="simpla-img" path="/img">
+	</body>
+</html>
